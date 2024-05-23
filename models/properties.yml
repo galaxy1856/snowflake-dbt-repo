@@ -1,0 +1,13 @@
+models:
+  - name: "kk"
+    config:
+      materialized: 'table'
+
+  - name: "kk3"
+    config:
+      materialized: 'view'
+
+  - name: "user_v1"
+    config:
+      materialized: 'table'
+
