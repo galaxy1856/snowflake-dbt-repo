@@ -1,3 +1,4 @@
 name: "dbt_first1_project"
 model-paths: ["models"]
-
+models:
+  materialized: 'view'
