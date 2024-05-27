@@ -18,5 +18,7 @@ models:
     config:
       materialized: 'table'
 
-  
+  - name: "cust_ephemeral"
+    config:
+      materialized: 'ephemeral'
 
