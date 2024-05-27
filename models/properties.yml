@@ -1,3 +1,10 @@
+sources:
+  - name: 'snowflake source'
+    database: E_COM_DB
+    schema: 'E_COMM_SCHEMA'
+    tables:
+      - name: 'customer'
+
 models:
   - name: "kk"
     config:

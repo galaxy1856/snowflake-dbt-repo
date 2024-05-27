@@ -1,0 +1,1 @@
+select * from {{ref("Country_Code2")}}
